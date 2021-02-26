@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+  background: #000000;
+}
+
+.topnav {
+  overflow: hidden;
+  background: #333;
+  border-radius: 100px;
+  height: 50px;
+}
+
+.topnavicon {
+  height: 50px;
+  float: left;
+}
+
+.searchbar {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.topnavtitle {
+  color: white;
+  padding: 16px 16px;
+  float: left;
+  text-decoration: none;
+  text-align: center;
+}
