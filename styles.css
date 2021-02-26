@@ -1,6 +1,7 @@
 body {
   font-family: sans-serif;
   background: #111;
+  color: white;
 }
 
 .topnav {
@@ -15,6 +16,7 @@ body {
   float: left;
   -webkit-tap-highlight-color: transparent;
   transition: opacity 0.5s;
+  border-radius: 100px;
 }
 
 .topnavicon:hover {
@@ -65,4 +67,14 @@ body {
 
 .topnavsearchicon:active {
   background: #777;
+}
+
+.social {
+  background: #333;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.youtube {
+  border-radius: 15px;
 }
