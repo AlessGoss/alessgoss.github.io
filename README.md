@@ -6,7 +6,7 @@ This is the source code on my website, created on February 25 2021. I wanted to 
 
 Also, here is the link to my website :
 
-https://alessgoss.github.io/Aless-Website/
+https://alessgoss.github.io/
 
 # Issue Reporting
 
