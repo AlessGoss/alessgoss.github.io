@@ -1,0 +1,56 @@
+CSS:
+
+Google Programmable search engine:
+
+Classes:
+
+.gsc-control-cse is the main search element
+
+.gsc-search-box are the search box and the search button
+
+.gsc-input is the search box
+
+.gsc-search-button is the search button
+
+.gsc-branding is the "Enhanced by Google" text, shown on the search box by default
+
+.gsib_b is something after the search box, which is useless
+
+IDs:
+
+#gsc-iw-id1 is also the search box
+
+#gs_tti50 is the text input of the search box
+
+
+
+Remember to put the !important after something like: "color: white", so "color: white !important;"
+
+changing the placeholder color:
+
+/* Changing placeholder color of search box */
+#gsc-i-id1::-webkit-input-placeholder
+{ 
+	/* Chrome */
+	color: #FFF;
+}
+
+#gsc-i-id1:-ms-input-placeholder
+{ 
+	/* IE 10+ */
+	color: #FFF;
+}
+
+#gsc-i-id1::-moz-placeholder
+{ 
+	/* Firefox 19+ */
+	color: #FFF;
+	opacity: 1;
+}
+
+#gsc-i-id1:-moz-placeholder
+{ 
+	/* Firefox 4 - 18 */
+	color: #FFF;
+	opacity: 1;
+}

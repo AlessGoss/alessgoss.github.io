@@ -35,6 +35,22 @@
           src="https://cse.google.com/cse.js?cx=a556652fc109f8e56"
         ></script>
         <div class="gcse-search"></div>
+        <script>
+          (function () {
+            var cx = "a556652fc109f8e56";
+            var gcse = document.createElement("script");
+            gcse.type = "text/javascript";
+            gcse.async = true;
+            gcse.src = "https://cse.google.com/cse.js?cx=" + cx;
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(gcse, s);
+          })();
+          window.onload = function () {
+            var searchBox = document.getElementById("gsc-i-id1");
+            searchBox.placeholder = "Search my website";
+            searchBox.title = "Search my website";
+          };
+        </script>
       </div>
     </div>
     <h1 style="text-align: center">Hi There, and welcome to my website !</h1>
@@ -45,7 +61,10 @@
       any videos a long time ago.
     </p>
     <div class="social">
-      <h2 class="checkoutsocialmedia">Check out my social media !</h2>
+      <h2 class="checkoutsocialmedia">
+        Check out my social media, and of course, my GitHub (including the
+        website repo) !
+      </h2>
       <div class="youtube">
         <strong>YouTube</strong>
         <p>
@@ -87,6 +106,21 @@
         sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
         class="discwidget"
       ></iframe>
+      <br /><br />
+      <strong>GitHub</strong>
+      <p>
+        This is actually where I host my website on. You can follow me, and
+        check out this website's reporitory !
+      </p>
+      <a href="https://github.com/AlessGoss" target="blank" class="ghpfbtn">
+        My Profile</a
+      >
+      <a
+        href="https://github.com/AlessGoss/Aless-Website/"
+        target="blank"
+        class="ghrepobtn"
+        >This website's repository</a
+      >
     </div>
   </body>
 </html>

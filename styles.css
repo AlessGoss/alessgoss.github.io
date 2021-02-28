@@ -42,6 +42,8 @@ body {
   border-radius: 100px;
   transition: background 0.5s;
   -webkit-tap-highlight-color: transparent;
+  position: relative;
+  left: 5px;
 }
 
 .topnavtitle:hover {
@@ -73,16 +75,64 @@ body {
   background: #333;
   text-align: center;
   border-radius: 15px;
+  padding: 10px;
+  height: 1150px;
 }
 
 .youtube {
   border-radius: 15px;
 }
 
-.checkoutsocialmedia {
-  padding: 10px;
+.ghpfbtn {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  background: #333;
+  border-radius: 100px;
+  transition: background 0.5s;
+  -webkit-tap-highlight-color: transparent;
+  padding: 16px 16px;
+  float: left;
 }
 
-.discwidget {
-  padding: 10px;
+.ghpfbtn:hover {
+  background: #555;
+}
+
+.ghpfbtn:active {
+  background: #777;
+}
+
+.ghrepobtn {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  background: #333;
+  border-radius: 100px;
+  transition: background 0.5s;
+  -webkit-tap-highlight-color: transparent;
+  padding: 16px 16px;
+  float: right;
+  width: 160px;
+}
+
+.ghrepobtn:hover {
+  background: #555;
+}
+
+.ghrepobtn:active {
+  background: #777;
+}
+
+@media screen and (max-width: 600px) {
+  .discwidget {
+    width: 300px;
+    float: center;
+    position: relative;
+    left: -1px;
+  }
+
+  .social {
+    height: 1270px;
+  }
 }
