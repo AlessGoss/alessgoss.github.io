@@ -136,3 +136,25 @@ body {
     height: 1270px;
   }
 }
+
+.notfounddiv {
+  text-align: center;
+}
+
+.notfoundhome {
+  color: white;
+  padding: 16px 16px;
+  text-decoration: none;
+  background: #333;
+  border-radius: 100px;
+  transition: background 0.5s;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.notfoundhome:hover {
+  background: #555;
+}
+
+.notfoundhome:active {
+  background: #777;
+}

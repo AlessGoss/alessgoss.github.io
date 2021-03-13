@@ -21,38 +21,16 @@
       content="Just a website, made by Aless and hosted on GitHub."
     />
     <meta name="robots" content="noarchive" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   </head>
   <body>
-    <div class="topnavgrp">
-      <div class="topnav">
-        <a href="index.html"><img src="favicon.png" class="topnavicon" /></a>
-        <a href="index.html" class="topnavtitle">Aless Website</a>
-      </div>
-      <br />
-      <div class="searchbar" id="searchbar">
-        <script
-          async
-          src="https://cse.google.com/cse.js?cx=a556652fc109f8e56"
-        ></script>
-        <div class="gcse-search"></div>
-        <script>
-          (function () {
-            var cx = "a556652fc109f8e56";
-            var gcse = document.createElement("script");
-            gcse.type = "text/javascript";
-            gcse.async = true;
-            gcse.src = "https://cse.google.com/cse.js?cx=" + cx;
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(gcse, s);
-          })();
-          window.onload = function () {
-            var searchBox = document.getElementById("gsc-i-id1");
-            searchBox.placeholder = "Search my website";
-            searchBox.title = "Search my website";
-          };
-        </script>
-      </div>
-    </div>
+    <div id="topnav"></div>
+
+    <script>
+      $(function () {
+        $("#topnav").load("Assets/topnav.html");
+      });
+    </script>
     <h1 style="text-align: center">Hi There, and welcome to my website !</h1>
     <p style="text-align: center">
       I'm a guy, who's addicted to Technology and EDM. I do random Windows
