@@ -1,18 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
-
 body {
   font-family: "Open Sans", sans-serif;
   background: #111;
   color: white;
 }
-
 .topnav {
   overflow: hidden;
   background: #333;
   border-radius: 100px;
   height: 50px;
 }
-
 .topnavicon {
   height: 50px;
   float: left;
@@ -22,144 +19,35 @@ body {
   width: 50px;
   height: 50px;
 }
-
 .topnavicon:hover {
   opacity: 75%;
 }
-
 .topnavicon:active {
   opacity: 50%;
 }
-
 .searchbar {
   border-radius: 15px;
   overflow: hidden;
 }
-
-.topnavtitle {
+.a-button {
   color: white;
   padding: 16px 16px;
-  float: left;
   text-decoration: none;
-  text-align: center;
   background: #333;
   border-radius: 100px;
   transition: background 0.5s;
   -webkit-tap-highlight-color: transparent;
+  text-align: center;
+}
+.a-button:hover {
+  background: #555;
+}
+.a-button:active {
+  background: #777;
+}
+.topnavtitle {
+  float: left;
   position: relative;
   left: 5px;
   height: 17px;
-}
-
-.topnavtitle:hover {
-  background: #555;
-}
-
-.topnavtitle:active {
-  background: #777;
-}
-
-.topnavsearchicon {
-  color: white;
-  float: right;
-  padding: 18px 18px;
-  border-radius: 100px;
-  -webkit-tap-highlight-color: transparent;
-  transition: background 0.5s;
-}
-
-.topnavsearchicon:hover {
-  background: #555;
-}
-
-.topnavsearchicon:active {
-  background: #777;
-}
-
-.social {
-  background: #333;
-  text-align: center;
-  border-radius: 15px;
-  padding: 10px;
-  height: 1225px;
-}
-
-.youtube {
-  border-radius: 15px;
-}
-
-.ghpfbtn {
-  color: white;
-  text-decoration: none;
-  text-align: center;
-  background: #333;
-  border-radius: 100px;
-  transition: background 0.5s;
-  -webkit-tap-highlight-color: transparent;
-  padding: 16px 16px;
-  float: left;
-}
-
-.ghpfbtn:hover {
-  background: #555;
-}
-
-.ghpfbtn:active {
-  background: #777;
-}
-
-.ghrepobtn {
-  color: white;
-  text-decoration: none;
-  text-align: center;
-  background: #333;
-  border-radius: 100px;
-  transition: background 0.5s;
-  -webkit-tap-highlight-color: transparent;
-  padding: 16px 16px;
-  float: right;
-  width: 160px;
-}
-
-.ghrepobtn:hover {
-  background: #555;
-}
-
-.ghrepobtn:active {
-  background: #777;
-}
-
-@media screen and (max-width: 600px) {
-  .discwidget {
-    width: 300px;
-    float: center;
-    position: relative;
-    left: -1px;
-  }
-
-  .social {
-    height: 1350px;
-  }
-}
-
-.notfounddiv {
-  text-align: center;
-}
-
-.notfoundhome {
-  color: white;
-  padding: 16px 16px;
-  text-decoration: none;
-  background: #333;
-  border-radius: 100px;
-  transition: background 0.5s;
-  -webkit-tap-highlight-color: transparent;
-}
-
-.notfoundhome:hover {
-  background: #555;
-}
-
-.notfoundhome:active {
-  background: #777;
 }
