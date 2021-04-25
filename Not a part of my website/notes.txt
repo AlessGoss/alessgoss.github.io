@@ -54,3 +54,11 @@ changing the placeholder color:
 	color: #FFF;
 	opacity: 1;
 }
+
+------------------------------------------
+
+Optimize content for mobile:
+
+CSS:
+
+@media screen and (max-width: 600px) {}
