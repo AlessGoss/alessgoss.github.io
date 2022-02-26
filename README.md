@@ -17,7 +17,7 @@ Or, if you want to add your code instead of reporting (Which is better), you can
 
 ## The softwares I use
 
-I use Visual Studio Code as my IDE, ~Firefox~ Microsoft Edge to preview my website on localhost (With <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">this extension</a>), and finally, GitHub Desktop, to commit changes to my website.
+I use Visual Studio Code as my IDE, ~Firefox~ Microsoft Edge to preview my website on localhost (With [this extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)), and finally, GitHub Desktop, to commit changes to my website.
 
 
 ### Enjoy!
