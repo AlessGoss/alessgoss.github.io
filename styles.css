@@ -32,7 +32,7 @@ body {
   text-decoration: none;
   background: #333;
   border-radius: 100px;
-  transition: background 0.5s, box-shadow 0.5s;
+  transition: background 0.5s, box-shadow 0.5s, color 0.5s;
   -webkit-tap-highlight-color: transparent;
   text-align: center;
 }
