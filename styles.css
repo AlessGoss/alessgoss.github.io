@@ -25,12 +25,12 @@ body {
   border-radius: 100px;
   width: 50px;
   height: 50px;
-  border: none !important;
+  /*   border: none !important; */
 }
 
-.topnavicon:active {
+/* .topnavicon:active {
   border: none !important;
-}
+} */
 
 .button {
   color: white;
@@ -38,7 +38,8 @@ body {
   text-decoration: none;
   background: #333;
   border-radius: 100px;
-  transition: background 0.5s, box-shadow 0.5s, color 0.5s, border 0.5s;
+  transition: background 0.5s, box-shadow 0.5s, color 0.5s, border 0.5s,
+    transform 0.5s;
   -webkit-tap-highlight-color: transparent;
   text-align: center;
   border: none;
@@ -48,13 +49,16 @@ body {
 .button:hover {
   background: #555;
   box-shadow: 0px 0px 25px #333;
+  transform: scale(1.15);
+  z-index: 10;
 }
 .button:active {
   /*  background: #777; */
   background: #fff;
   color: #000;
   box-shadow: 0px 0px 25px #888;
-  border: 5px solid white;
+  /*   border: 5px solid white; */
+  transform: scale(0.85);
 }
 
 .button-light {
@@ -69,7 +73,7 @@ body {
   background: #000 !important;
   color: #fff !important;
   box-shadow: 0px 0px 50px #000 !important;
-  border: 5px solid black !important;
+  /*   border: 5px solid black !important; */
 }
 
 .topnavtitle {
@@ -80,9 +84,9 @@ body {
   margin-left: 5px;
 }
 
-.topnavtitle:active {
+/* .topnavtitle:active {
   border: none !important;
-}
+} */
 
 .container {
   background: #222;
