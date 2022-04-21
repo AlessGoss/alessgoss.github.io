@@ -26,7 +26,7 @@ body {
   width: 50px;
   height: 50px;
 }
-.a-button {
+.button {
   color: white;
   padding: 16px 16px;
   text-decoration: none;
@@ -36,12 +36,14 @@ body {
   -webkit-tap-highlight-color: transparent;
   text-align: center;
   border: none;
+  font-size: 1em;
+  cursor: pointer;
 }
-.a-button:hover {
+.button:hover {
   background: #555;
   box-shadow: 0px 0px 25px #333;
 }
-.a-button:active {
+.button:active {
   /*  background: #777; */
   background: #fff;
   color: #000;
@@ -49,15 +51,15 @@ body {
   border: 5px solid white;
 }
 
-.a-button-light {
+.button-light {
   color: black !important;
   background: #ccc !important;
 }
-.a-button-light:hover {
+.button-light:hover {
   background: #aaa !important;
   box-shadow: 0px 0px 25px #888 !important;
 }
-.a-button-light:active {
+.button-light:active {
   background: #000 !important;
   color: #fff !important;
   box-shadow: 0px 0px 50px #000 !important;
@@ -68,7 +70,7 @@ body {
   float: left;
   position: relative;
   left: 5px;
-  height: 17px;
+  height: 100%;
   margin-left: 5px;
 }
 

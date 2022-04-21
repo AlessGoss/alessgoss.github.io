@@ -2,7 +2,7 @@ var buttons;
 var containers;
 var topnav;
 window.onload = function () {
-  buttons = document.getElementsByClassName("a-button");
+  buttons = document.getElementsByClassName("button");
   containers = document.getElementsByClassName("container");
   topnav = document.getElementsByClassName("topnav");
 };
@@ -12,7 +12,7 @@ function lightMode(bool) {
   if (light) {
     var l = buttons.length;
     for (i = 0; i < l; i++) {
-      buttons[i].classList.add("a-button-light");
+      buttons[i].classList.add("button-light");
     }
 
     var l = containers.length;
@@ -36,7 +36,7 @@ function lightMode(bool) {
   } else {
     var l = buttons.length;
     for (i = 0; i < l; i++) {
-      buttons[i].classList.remove("a-button-light");
+      buttons[i].classList.remove("button-light");
     }
 
     var l = containers.length;
