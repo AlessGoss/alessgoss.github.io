@@ -25,7 +25,13 @@ body {
   border-radius: 100px;
   width: 50px;
   height: 50px;
+  border: none !important;
 }
+
+.topnavicon:active {
+  border: none !important;
+}
+
 .button {
   color: white;
   padding: 16px 16px;
