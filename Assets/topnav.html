@@ -21,18 +21,18 @@
             class="topnavicon button"
             style="padding: 0 !important"
         /></a>
-        <a href="/index.html" tabindex="-1"
-          ><button class="button topnavtitle">Aless Website</button></a
+        <form action="/index.html">
+          <button class="button topnavtitle" type="submit">
+            Aless Website
+          </button>
+        </form>
+        <button
+          class="button topnavtitle"
+          id="toggleThemeBtn"
+          onclick="lightMode(true)"
         >
-        <a href="#" tabindex="-1"
-          ><button
-            class="button topnavtitle"
-            id="toggleThemeBtn"
-            onclick="lightMode(true)"
-          >
-            <i class="fas fa-sun"></i> (Light mode)
-          </button></a
-        >
+          <i class="fas fa-sun"></i> (Light mode)
+        </button>
       </div>
     </div>
   </body>

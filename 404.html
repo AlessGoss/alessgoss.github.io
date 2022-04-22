@@ -28,14 +28,15 @@
     </p>
     <br />
     <div style="text-align: center">
-      <a href="#" onClick="history.back()" tabindex="-1"
-        ><button class="button">
-          <i class="fas fa-arrow-left"></i> Back
-        </button></a
-      >
-      <a href="/" tabindex="-1"
-        ><button class="button"><i class="fas fa-home"></i> Home</button></a
-      ><br /><br />The "Back" button takes you back where you was before and the
+      <button class="button" onClick="history.back()">
+        <i class="fas fa-arrow-left"></i> Back
+      </button>
+      <form action="/index.html" style="display: inline-block">
+        <button class="button" type="submit">
+          <i class="fas fa-home"></i> Home
+        </button>
+      </form>
+      <br /><br />The "Back" button takes you back where you was before and the
       "Home" button takes you to my homepage.
     </div>
   </body>
