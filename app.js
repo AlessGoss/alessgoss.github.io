@@ -1,10 +1,19 @@
 var buttons;
 var containers;
 var topnav;
+var originalDocumentTitle;
 window.onload = function () {
   buttons = document.getElementsByClassName("button");
   containers = document.getElementsByClassName("container");
   topnav = document.getElementsByClassName("topnav");
+
+  if (
+    window.location.hostname == "localhost" ||
+    window.location.hostname == "127.0.0.1"
+  ) {
+    originalDocumentTitle = document.title;
+    document.title = "[LOCAL] " + document.title;
+  }
 };
 var lightModeSet;
 function lightMode(bool) {
