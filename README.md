@@ -1,23 +1,26 @@
 # Aless Website
 
-Hi there !
+Hi there!
 
-This is the source code of my website, created on February 25, 2021.
-I wanted to host it on GitHub, because I always wanted to use my HTML skills to create my own website, without graphical editors (drag-and-drop) and/or CSS frameworks.
+This is the source code of my website, created on February 25, 2021. I always wished to use my web development skills to create my own website, without graphical editors (drag-and-drop) or CSS frameworks.
 
-Also, here is the link to my website:
-
-https://alessgoss.github.io/
+Want to take a look? Click [here](https://alessgoss.github.io/)!
 
 ## Contributions
 
-If you want to report a bug, or suggest something, click "Issues" and then click "New issue".
+**If you want to report a bug, or suggest something, click [here](https://github.com/AlessGoss/alessgoss.github.io/issues/new) to create a new issue.**
 
-Or, if you want to add your code instead of reporting (which is better), you can fork this repository, add your code, create a Pull Request, and I will review your commit(s).
+**If you want to add your code instead:**
 
-## The softwares I use
+1. First of all, fork this repository.
+2. Then, customize your fork (add, edit or delete files). You must commit changes in the `main` branch only.
+3. And finally, [create a pull request](https://github.com/AlessGoss/alessgoss.github.io/compare).
 
-I use [Visual Studio Code](https://code.visualstudio.com) as my IDE, [~Firefox~](https://www.mozilla.org/en-US/firefox/) [Microsoft Edge](https://www.microsoft.com/en-us/edge) to preview my website on localhost (with [this extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)), and finally, [GitHub Desktop](https://desktop.github.com/), to commit changes to my website.
+I will review your commit(s) and merge your pull request if it's OK.
+
+## Software I use
+
+I use [Visual Studio Code](https://code.visualstudio.com) as my IDE, [Microsoft Edge](https://www.microsoft.com/en-us/edge) to preview my website on `localhost` (with [this extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)), and finally, [GitHub Desktop](https://desktop.github.com/), to commit changes to my website.
 
 -----------------------
 
