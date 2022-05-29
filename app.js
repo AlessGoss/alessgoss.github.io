@@ -6,6 +6,7 @@ window.onload = function () {
   buttons = document.getElementsByClassName("button");
   containers = document.getElementsByClassName("container");
   topnav = document.getElementsByClassName("topnav");
+  overlay = document.getElementsByClassName("overlay");
 
   if (
     window.location.hostname == "localhost" ||
@@ -42,6 +43,11 @@ function lightMode(bool) {
     document
       .getElementById("toggleThemeBtn")
       .setAttribute("onclick", "lightMode(false)");
+
+    var l = overlay.length;
+    for (i = 0; i < l; i++) {
+      overlay[i].classList.add("overlay--light-mode");
+    }
   } else {
     var l = buttons.length;
     for (i = 0; i < l; i++) {
@@ -63,5 +69,25 @@ function lightMode(bool) {
     lightModeSet = false;
     toggleThemeBtn.innerHTML = '<i class="fas fa-sun"></i> (Light mode)';
     toggleThemeBtn.setAttribute("onclick", "lightMode(true)");
+
+    var l = overlay.length;
+    for (i = 0; i < l; i++) {
+      overlay[i].classList.remove("overlay--light-mode");
+    }
+  }
+}
+
+function showOverlay(overlayId, showOverlay) {
+  var overlay = document.getElementById(overlayId);
+
+  if (showOverlay) {
+    if (overlay.classList.contains("overlay--hide"))
+      overlay.classList.remove("overlay--hide");
+    overlay.classList.add("overlay--show");
+  } else {
+    if (overlay.classList.contains("overlay--show")) {
+      overlay.classList.remove("overlay--show");
+      overlay.classList.add("overlay--hide");
+    }
   }
 }
