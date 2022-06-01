@@ -6,6 +6,55 @@ body {
   color: #fff;
   transition: color 0.5s, background 1s, margin-top 0.5s;
 }
+
+.--ignore-light-mode {
+  color: #fff;
+}
+
+.website-background {
+  z-index: -1;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  animation: unBlur 1s;
+  filter: blur(0px);
+}
+
+.website-background-container {
+  z-index: -1;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  animation: makeItBigger 1s;
+  transition: background 1s;
+  background-image: url("/assets/backgrounds/space.png");
+  transform: scale(1.25);
+}
+
+@keyframes unBlur {
+  0% {
+    filter: blur(15px);
+  }
+  100% {
+    filter: blur(0px);
+  }
+}
+
+@keyframes makeItBigger {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.25);
+  }
+}
+
 .topnav {
   overflow: visible;
   background: #333;
@@ -92,11 +141,13 @@ body {
 .container {
   background: #222;
   border-radius: 25px;
-  transition: background 0.5s;
+  transition: background 0.5s, color 0.5s;
+  color: #fff;
 }
 
 .container-light {
   background: #ddd !important;
+  color: #000;
 }
 
 .overlay {

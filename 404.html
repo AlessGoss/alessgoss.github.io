@@ -21,11 +21,13 @@
         $("#topnav").load("/assets/topnav.html");
       });
     </script>
-    <h1 style="text-align: center; font-size: 100px">404</h1>
-    <p style="text-align: center">
-      Oh no, you are lost! I can take you back if you want. Click one of the
-      buttons below.
-    </p>
+    <div class="--ignore-light-mode">
+      <h1 style="text-align: center; font-size: 100px">404</h1>
+      <p style="text-align: center">
+        Oh no, you are lost! I can take you back if you want. Click one of the
+        buttons below.
+      </p>
+    </div>
     <br />
     <div style="text-align: center">
       <button class="button" onClick="history.back()">
@@ -36,8 +38,10 @@
           <i class="fas fa-home"></i> Home
         </button>
       </form>
-      <br /><br />The "Back" button takes you back where you was before and the
-      "Home" button takes you to my homepage.
+      <div class="--ignore-light-mode">
+        <br /><br />The "Back" button takes you back where you was before and
+        the "Home" button takes you to my homepage.
+      </div>
     </div>
   </body>
 </html>
