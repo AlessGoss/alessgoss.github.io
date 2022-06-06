@@ -91,3 +91,13 @@ function showOverlay(overlayId, showOverlay) {
     }
   }
 }
+
+console.log("Do you intend to run some JavaScript?");
+
+function yes() {
+  console.log("Nice. :)");
+}
+
+function no() {
+  console.log("Then, I wonder what you're doing here. :/");
+}
