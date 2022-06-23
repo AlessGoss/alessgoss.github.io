@@ -26,4 +26,4 @@ I use [Visual Studio Code](https://code.visualstudio.com) as my IDE, [Microsoft 
 
 ### Enjoy!
 
-_&copy; 2022 AlessGoss_
+_&copy; 2021-2022 AlessGoss_
