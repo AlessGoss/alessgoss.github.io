@@ -11,6 +11,10 @@ body {
   color: #fff;
 }
 
+.--force-black-text {
+  color: #000;
+}
+
 .--no-shadow {
   box-shadow: 0px 0px 0px !important;
 }
