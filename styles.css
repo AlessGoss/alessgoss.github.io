@@ -274,3 +274,7 @@ body {
   overflow: hidden;
   border-radius: 15px;
 }
+
+.--fix-topnav-height {
+  height: 50px;
+}
