@@ -1,7 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 
+* {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
+  font-weight: 200;
   background: #111;
   color: #fff;
   transition: color 0.5s, background 1s, margin-top 0.5s;
