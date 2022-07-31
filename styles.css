@@ -49,6 +49,8 @@ body {
   transition: background 1s;
   background-image: url("/assets/backgrounds/space.png");
   transform: scale(1.25);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @keyframes unBlur {
@@ -74,7 +76,7 @@ body {
   background: #333;
   border-radius: 100px;
   height: 52px;
-  transition: background 0.5s;
+  transition: background 0.25s;
 }
 
 .topnav-light {
@@ -102,8 +104,8 @@ body {
   text-decoration: none;
   background: #333;
   border-radius: 100px;
-  transition: background 0.5s, box-shadow 0.5s, color 0.5s, border 0.5s,
-    transform 0.5s;
+  transition: background 0.25s, box-shadow 0.25s, color 0.25s, border 0.25s,
+    transform 0.25s;
   -webkit-tap-highlight-color: transparent;
   text-align: center;
   border: none;
