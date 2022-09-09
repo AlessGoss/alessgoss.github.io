@@ -16,7 +16,7 @@ Want to take a look? Click [here](https://alessgoss.github.io/)!
 2. Then, customize your fork (add, edit or delete files). You must commit changes in the `main` branch only.
 3. And finally, [create a pull request](https://github.com/AlessGoss/alessgoss.github.io/compare).
 
-I will review your commit(s) and merge your pull request if it's OK.
+I will review your commit(s) and merge your pull request if it's okay.
 
 ## Software I use
 
