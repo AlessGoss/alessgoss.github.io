@@ -91,12 +91,21 @@ body {
   border-radius: 100px;
   width: 52px;
   height: 52px;
+  margin-bottom: 0 !important;
   /*   border: none !important; */
 }
 
 /* .topnavicon:active {
   border: none !important;
 } */
+
+form {
+  display: inline-block;
+}
+
+.topnavform {
+  display: block !important;
+}
 
 .button {
   color: white;
@@ -111,6 +120,8 @@ body {
   border: none;
   font-size: 1em;
   cursor: pointer;
+  display: inline-block;
+  margin-bottom: 5px;
 }
 .button:hover {
   background: #555;
@@ -148,6 +159,8 @@ body {
   left: 5px;
   height: 100%;
   margin-left: 5px;
+  display: block;
+  margin-bottom: 0 !important;
 }
 
 /* .topnavtitle:active {
@@ -159,6 +172,9 @@ body {
   border-radius: 25px;
   transition: background 0.5s, color 0.5s;
   color: #fff;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .container-light {
@@ -175,7 +191,7 @@ body {
   height: 0%;
   display: block;
   position: fixed;
-  /*   top: 0; */
+  /* top: 0; */
   left: 0;
   right: 0;
   bottom: 0;

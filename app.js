@@ -39,7 +39,7 @@ function lightMode(bool) {
     document.body.style.color = "#000";
     lightModeSet = true;
     document.getElementById("toggleThemeBtn").innerHTML =
-      '<i class="fas fa-moon"></i> (Dark mode)';
+      '<i class="fas fa-moon"></i> Dark mode';
     document
       .getElementById("toggleThemeBtn")
       .setAttribute("onclick", "lightMode(false)");
@@ -67,7 +67,7 @@ function lightMode(bool) {
     document.body.style.background = "#111";
     document.body.style.color = "#fff";
     lightModeSet = false;
-    toggleThemeBtn.innerHTML = '<i class="fas fa-sun"></i> (Light mode)';
+    toggleThemeBtn.innerHTML = '<i class="fas fa-sun"></i> Light mode';
     toggleThemeBtn.setAttribute("onclick", "lightMode(true)");
 
     var l = overlay.length;
