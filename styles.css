@@ -139,6 +139,30 @@ form {
   transform: scale(0.9);
 }
 
+@media only screen and (max-width: 600px) {
+  form {
+    display: block;
+    width: 100%;
+  }
+  .button {
+    width: 100%;
+  }
+  .container {
+    width: 95%;
+  }
+  .button:hover {
+    transform: none;
+  }
+  .button:active {
+    transform: scale(0.9);
+  }
+  .topnavform,
+  .topnavtitle,
+  .topnavicon {
+    width: auto;
+  }
+}
+
 .button-light {
   color: black !important;
   background: #ccc !important;
