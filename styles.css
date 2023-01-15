@@ -14,10 +14,6 @@ body {
   margin: 10px 10px 0 10px;
 }
 
-.--ignore-light-mode {
-  color: #fff;
-}
-
 .--force-black-text {
   color: #000;
 }
@@ -79,10 +75,6 @@ body {
   height: 52px;
   transition: background 0.25s;
   box-shadow: 0px 0px 5px #000;
-}
-
-.topnav-light {
-  background: #ccc !important;
 }
 
 .topnavicon {
@@ -180,23 +172,6 @@ form {
   }
 }
 
-.button-light {
-  color: black !important;
-  background: #ccc !important;
-}
-.button-light:hover {
-  background: #aaa !important;
-  box-shadow: 0px 0px 25px #888 !important;
-  text-shadow: 0px 0px 5px #555 !important;
-}
-.button-light:active {
-  background: #000 !important;
-  color: #fff !important;
-  box-shadow: 0px 0px 50px #000 !important;
-  text-shadow: 0px 0px 5px #ccc !important;
-  /*   border: 5px solid black !important; */
-}
-
 .topnavtitle {
   float: left;
   position: relative;
@@ -225,11 +200,6 @@ form {
   margin-bottom: 10px;
 }
 
-.container-light {
-  background: #ddd !important;
-  color: #000;
-}
-
 .overlay {
   z-index: 10 !important;
   margin: 0;
@@ -244,10 +214,6 @@ form {
   right: 0;
   bottom: 0;
   transition: background 0.5s;
-}
-
-.overlay--light-mode {
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .overlay--show {
