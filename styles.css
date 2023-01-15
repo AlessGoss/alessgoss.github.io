@@ -282,47 +282,6 @@ form {
   }
 }
 
-.pride-month-banner {
-  height: 300px;
-  overflow: hidden;
-  box-shadow: inset 0px 0px 15px #000;
-  vertical-align: middle;
-  text-align: center;
-  line-height: 300px;
-  margin: 0;
-}
-
-.pride-month-banner-background {
-  z-index: -3;
-  height: 100%;
-  background: linear-gradient(
-    to bottom,
-    #d12229,
-    #f68a1e,
-    #fde01a,
-    #007940,
-    #24408e,
-    #732982
-  );
-  filter: blur(20px);
-  position: relative;
-}
-
-.pride-month-banner-content {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: -3;
-}
-
-.pride-month-banner-iframe {
-  width: 100%;
-  height: 300px;
-  overflow: hidden;
-  border-radius: 15px;
-}
-
 .--fix-topnav-height {
   height: 50px;
 }
