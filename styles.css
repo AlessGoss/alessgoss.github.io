@@ -11,6 +11,7 @@ body {
   background: #111;
   color: #fff;
   transition: color 0.5s, background 1s, margin-top 0.5s;
+  margin: 10px 10px 0 10px;
 }
 
 .--ignore-light-mode {
