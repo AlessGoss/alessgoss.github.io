@@ -6,15 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aless Website</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
     <link rel="stylesheet" href="./styles.css" />
+    <noscript
+      ><style>
+        #toggleThemeBtn {
+          display: none;
+        }
+      </style></noscript
+    >
     <script src="app.js"></script>
     <link rel="icon" href="favicon.png" />
     <meta
       name="google-site-verification"
       content="Bf2Y0l0YWSFe-iqN4JecPsYjq7XJE_waZ6hBPq_z6Go"
     />
-    <meta name="description" content="Check out my Website!" />
+    <meta name="description" content="Check out my website!" />
     <meta name="robots" content="noarchive" />
     <link
       rel="stylesheet"
@@ -22,6 +32,49 @@
     />
   </head>
   <body>
+    <!-- Top navigation bar -->
+
+    <div
+      class="topnavgrp animate__animated animate__fadeInDown"
+      style="width: 100%"
+    >
+      <div class="topnav">
+        <a href="/index.html"
+          ><img
+            src="../assets/logo.png"
+            class="topnavicon button"
+            style="padding: 0 !important"
+        /></a>
+        <form action="../index.html" class="topnavform">
+          <button class="button topnavtitle --fix-topnav-height" type="submit">
+            Aless Website
+          </button>
+        </form>
+        <!--[if gte IE 10]><!-->
+        <button
+          class="button topnavtitle"
+          id="toggleThemeBtn"
+          onclick="lightMode(true)"
+        >
+          <i class="fas fa-sun"></i> Light mode
+        </button>
+        <!--<![endif]-->
+      </div>
+    </div>
+    <div class="website-background">
+      <div class="website-background-container"></div>
+    </div>
+    <br />
+    <!--[if gte IE 10]><!-->
+    <!--     <iframe
+      src="/assets/pride-month-banner.html"
+      frameborder="0"
+      class="pride-month-banner-iframe"
+    ></iframe> -->
+    <!-- Pride Month ended. -->
+    <!--<![endif]-->
+
+    <!------------------------>
     <noscript
       ><p style="text-align: center">
         There is no JavaScript!<br /><br />Some parts of the website will not
@@ -30,12 +83,6 @@
         support.<br /><br />Or, if you've disabled JavaScript, enable it!
       </p></noscript
     >
-    <div id="topnav"></div>
-    <script>
-      $(function () {
-        $("#topnav").load("assets/topnav.html");
-      });
-    </script>
     <div class="--ignore-light-mode animate__animated animate__bounceIn">
       <h1 style="text-align: center">Hi there, and welcome to my website!</h1>
       <h4 style="text-align: center">
