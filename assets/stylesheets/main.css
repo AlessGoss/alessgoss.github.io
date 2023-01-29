@@ -42,7 +42,7 @@ body {
   right: 0;
   animation: makeItBigger 1s;
   transition: background 1s;
-  background-image: url("/assets/backgrounds/space.png");
+  background-image: url("/assets/images/background.png");
   transform: scale(1.25);
   background-repeat: no-repeat;
   background-size: cover;
