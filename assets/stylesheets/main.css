@@ -129,36 +129,6 @@ body {
   text-shadow: 0px 0px 5px #555;
 }
 
-@media only screen and (max-width: 600px) {
-  .topnavtitle {
-    padding-left: 16px !important;
-    padding-right: 16px !important;
-  }
-  .button {
-    width: 95%;
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .container {
-    width: 91%;
-  }
-  .topnavform,
-  .topnavtitle,
-  .topnavicon {
-    width: auto;
-  }
-
-  .container p {
-    margin-bottom: 20px !important;
-  }
-
-  .container button {
-    margin-top: 0 !important;
-  }
-}
-
 .topnavtitle {
   float: left;
   position: relative;
