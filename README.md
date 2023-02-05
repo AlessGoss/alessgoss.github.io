@@ -20,7 +20,7 @@ I will review your commit(s) and merge your pull request if it's okay.
 
 ## Software I use
 
-I use [Visual Studio Code](https://code.visualstudio.com) as my IDE, [Mozilla Firefox](https://www.mozilla.org/en-US/firefox) to preview my website on `localhost` (with [this extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)), and finally, [GitHub Desktop](https://desktop.github.com/), to commit changes to my website.
+I use [Visual Studio Code](https://code.visualstudio.com) as my IDE, [Mozilla Firefox](https://www.mozilla.org/en-US/firefox) to preview my website, and finally, [GitHub Desktop](https://desktop.github.com/) to commit changes to my website.
 
 ---
 
