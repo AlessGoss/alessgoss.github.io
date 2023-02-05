@@ -1,10 +1,6 @@
 # Aless website
 
-Hi there!
-
-This is the source code of my website, created on February 25, 2021. I always wished to use my web development skills to create my own website, without graphical editors (drag-and-drop) or CSS frameworks.
-
-Want to take a look? Click [here](https://alessgoss.github.io/)!
+This is the source code of my website that I created on February 25th, 2021. I always wanted to use my web development skills to create my own website, without graphical editors (drag-and-drop/[WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG 'Acronym for "what you see is what you get"')) and/or CSS frameworks, which led me to creating this repository.
 
 ## Contributions
 
