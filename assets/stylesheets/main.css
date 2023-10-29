@@ -53,34 +53,6 @@ body {
   }
 }
 
-.topnav {
-  overflow: visible;
-  background: #333;
-  border-radius: 10px;
-  height: 52px;
-  transition: background 0.25s;
-  box-shadow: 0px 0px 5px #000;
-  margin: 10px 10px 0 10px;
-}
-
-.topnavicon {
-  float: left;
-  -webkit-tap-highlight-color: transparent;
-  transition: /* opacity 0.5s */ box-shadow 0.5s;
-  border-radius: 10px;
-  width: 52px;
-  height: 52px;
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-  margin-left: 0 !important;
-  padding: 0 !important;
-  /*   border: none !important; */
-}
-
-/* .topnavicon:active {
-  border: none !important;
-} */
-
 .button {
   color: white;
   text-decoration: none;
@@ -116,21 +88,14 @@ body {
   text-shadow: 0px 0px 5px #555;
 }
 
-.topnavtitle {
-  float: left;
-  position: relative;
-  left: 5px;
-  height: 36px;
-  margin-left: 5px;
+.titlebar {
+  transition: background 0.25s;
+  border-radius: 0 0 10px 10px;
+  width: auto !important;
   display: block;
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-  padding-bottom: 0 !important;
+  margin: 0 !important;
+  box-shadow: 0px 0px 5px #000;
 }
-
-/* .topnavtitle:active {
-  border: none !important;
-} */
 
 .container {
   background: #222;
