@@ -12,7 +12,7 @@ There are 2 ways you can contribute to my website:
 
 ## Software I use
 
-I use [Visual Studio Code](https://code.visualstudio.com) as my IDE, [Mozilla Firefox](https://www.mozilla.org/en-US/firefox) to preview my website, and finally, [Git](https://git-scm.com/) to commit changes to it.
+I use [VSCodium](https://vscodium.com/) as my IDE, [Mozilla Firefox](https://www.mozilla.org/en-US/firefox) to preview my website, and finally, [Git](https://git-scm.com/) to commit changes to it.
 
 ---
 
